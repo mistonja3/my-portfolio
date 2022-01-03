@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox2-2.11.3/src/css/lightbox.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#content" class="logo">
+                <img src="assets/logo.png" alt="logo"> MARIO TOMIC</a>
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="assets/resume.pdf" target="_blank">Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="side-menu">
+                <button class="side-menu-button">
+                    <div class="ham-button">
+
+                    </div>
+                </button>
+                <aside class="side-menu-items">
+                    <nav>
+                        <ul>
+                            <li class="side-menu-links"><a href="#about">About</a></li>
+                            <li class="side-menu-links"><a href="#projects">Projects</a></li>
+                            <li class="side-menu-links"><a href="#contact">Contact</a></li>
+                            <li class="side-menu-links"><a href="assets/resume.pdf" target="_blank">Resume</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main" id="content">
+        <section class="section" data-aos="fade-up" data-aos-duration="2000">
+            <div class="container is-medium intro">
+                <p>Hi, my name is</p>
+                <h1>Mario Tomic</h1>
+                <h2>Inspiring Web Developer</h2>
+                <p>Computer Science (BSc) student, looking to specialize in web development and UI/UX design. </p>
+                <a href="mailto:mario.tom96@gmail.com" class="email">Contact me</a>
+            </div>
+        </section>
+        <section class="section" id="about" data-aos="fade-up" data-aos-duration="2000">
+            <div class="container is-medium about">
+                <h2 class="about_title">About Me</h2>
+                <div class="columns">
+                    <div class="column">
+                        <p>
+                            Hi! I'm Mario and I really like making websites. I'm currently based in Urayasu in Chiba, Japan. I enjoy learning new things every day, and designing with HTML and CSS with JS has been my favorite thing to do in my web development career so far. I come
+                            from a mechanical engineering background, but programming changed my mind about switching careers.
+                        </p>
+                        <p>
+                            I am currently pursuing a BScs degree in Computer Science at the University of London. I will be entering my final year of the degree in March 2022. I've enjoyed every programming exercise I had to do, ranging from a simple JavaScript project to making
+                            my own website with front-end and back-end development.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p>Languagues and skills I'm familiar with, so far:</p>
+                        <ul class="skills_list">
+                            <li><img src="assets/html.png" alt="HTML5 logo" title="HTML5"></li>
+                            <li><img src="assets/css-3.png" alt="CSS3 logo" title="CSS3"></li>
+                            <li><img src="assets/js.png" alt="JavaScript logo" title="JavaScript"></li>
+                            <li><img src="assets/node.png" alt="Node.js logo" title="Node.js"></li>
+                            <li><img src="assets/sql.png" alt="mySQL logo" title="mySQL"></li>
+                            <li><img src="assets/jquery.png" alt="jQuery logo" title="jQuery"></li>
+                            <li><img src="assets/git.png" alt="Git logo" title="Git"></li>
+                            <li><img src="assets/c.png" alt="C++ logo" title="C++"></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="section" id="projects">
+            <div class="container is-medium projects">
+                <h2 class="about_title">Projects I've Done</h2>
+                <div class="columns js-game" data-aos="fade-up-right">
+                    <div class="column project_images">
+                        <a href="assets/game1.png" data-lightbox="game">
+                            <div class="game1">
+                                <img src="assets/game1.png">
+                                <span class="click-event">More Photos</span>
+                            </div>
+                        </a>
+                        <a href="assets/game2.png" data-lightbox="game"></a>
+                        <a href="assets/game3.png" data-lightbox="game"></a>
+
+
+                    </div>
+                    <div class="column project_detail">
+                        <h3 class="project_title">Alien Invasion</h3>
+                        <div class="project_description">
+                            <p>A very simple JavaScript game made with p5.js library. One of the first projects done with the University. Goal is to collect as many diamonds as possible without getting hit by aliens and escape with the UFO.
+                            </p>
+                        </div>
+                        <ul class="project_lang">
+                            <li>JavaScript</li>
+                            <li>p5.js</li>
+                        </ul>
+                        <div class="game-div left">
+                            <a href="https://mistonja3.github.io/alien-invasion/" target="_blank" class="click-event-2">
+                                <p class="game-p">Try the game</p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="columns draw-app" data-aos="fade-up-left">
+                    <div class="column project_detail">
+                        <h3 class="project_title">JS Drawing App</h3>
+                        <div class="project_description">
+                            <p>JavaScript drawing app inspired by old MS Paint. Uses p5.js library and HTML to draw on canvas. App is very interactive and fun to draw with.
+                            </p>
+                        </div>
+                        <ul class="project_lang">
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>p5.js</li>
+                        </ul>
+                        <div class="game-div right">
+                            <a href="https://mistonja3.github.io/paint-app/" target="_blank" class="click-event-2">
+                                <p class="game-p">Try the app</p>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="column">
+                        <div class="project_images">
+                            <a href="assets/draw1.png" data-lightbox="draw">
+                                <div class="game1 image-wrapper">
+                                    <img src="assets/drawwing.png">
+                                    <span class="click-event">More Photos</span>
+                                </div>
+                            </a>
+                            <a href="assets/dra2.png" data-lightbox="draw"></a>
+                            <a href="assets/draw3.png" data-lightbox="draw"></a>
+                            <a href="assets/draw4.png" data-lightbox="draw"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="columns fight-site" data-aos="fade-up-right">
+                    <div class="column project_images">
+                        <a href="assets/fight1.png" data-lightbox="fight">
+                            <div class="game1 image-wrapper">
+                                <img src="assets/fight1.png">
+                                <span class="click-event">More Photos</span>
+                            </div>
+                        </a>
+                        <a href="assets/index(desktop).png" data-lightbox="fight"></a>
+                        <a href="assets/martial arts(desktop).png" data-lightbox="fight"></a>
+                        <a href="assets/news(desktop).png" data-lightbox="fight"></a>
+                        <a href="assets/fighters(desktop).png" data-lightbox="fight"></a>
+                    </div>
+                    <div class="column project_detail">
+                        <h3 class="project_title">MMA Magazine - Twister</h3>
+                        <div class="project_description">
+                            <p>University project for a 5 webpage website. MMA magazine theme. All the information a magazine should have. All about fighters and news. JSON data created by myself and used handlebars as a template.
+                            </p>
+                        </div>
+                        <ul class="project_lang">
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>Handlebars</li>
+                        </ul>
+                        <div class="game-div left">
+                            <a href="https://mistonja3.github.io/twister/" target="_blank" class="click-event-2">
+                                <p class="game-p">Check out</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="columns calorie-app" data-aos="fade-up-left">
+
+                    <div class="column project_detail">
+                        <h3 class="project_title">CalorieBuddy</h3>
+                        <div class="project_description">
+                            <p>Dynamic website for counting food calories. EJS used for templating and mySQL used for database. Adding you own food with your own macros, searching for the food, updating certain food and showing the whole list of food added
+                                to the database. Deployed on Heroku.
+                            </p>
+                        </div>
+                        <ul class="project_lang">
+                            <li>JavaScript</li>
+                            <li>EJS</li>
+                            <li>Node.js</li>
+                            <li>mySQL</li>
+                        </ul>
+                        <div class="game-div right">
+                            <a href="https://calorie-bud-heroku.herokuapp.com/" target="_blank" class="click-event-2">
+                                <p class="game-p">Try the app</p>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="column">
+                        <div class="project_images">
+                            <a href="assets/cal1.png" data-lightbox="cal">
+                                <div class="game1 image-wrapper">
+                                    <img src="assets/cal.png">
+                                    <span class="click-event">More Photos</span>
+                                </div>
+                            </a>
+                            <a href="assets/cal2.png" data-lightbox="cal"></a>
+                            <a href="assets/cal3.png" data-lightbox="cal"></a>
+                            <a href="assets/cal4.png" data-lightbox="cal"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="columns sudoku-app" data-aos="fade-up-right">
+                    <div class="column project_images">
+                        <a href="assets/sudo1.png" data-lightbox="sudoku">
+                            <div class="game1 image-wrapper">
+                                <img src="assets/sudo1.png">
+                                <span class="click-event">More Photos</span>
+                            </div>
+                        </a>
+                        <a href="assets/sudo2.png" data-lightbox="sudoku"></a>
+                        <a href="assets/sudo3.png" data-lightbox="sudoku"></a>
+                        <a href="assets/sudo4.png" data-lightbox="sudoku"></a>
+                    </div>
+                    <div class="column project_detail">
+                        <h3 class="project_title">SudokuJS</h3>
+                        <div class="project_description">
+                            <p>Simple Sudoku puzzle JavaScript project. Mostly done for practising algorithms and interacting with DOM. There are two type of puzzles you can try to solve. Easy puzzle is 4x4 grid and hard puzzle is 9x9. Once finished, user
+                                can check if their solution is correct. If too difficult, user can opt for next puzzle with some of the fields filled up already.
+                            </p>
+                        </div>
+                        <ul class="project_lang">
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <div class="game-div left">
+                            <a href="https://mistonja3.github.io/SudokuJS/" target="_blank" class="click-event-2">
+                                <p class="game-p">Solve</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="columns weather-api" data-aos="fade-up-left">
+
+                    <div class="column project_detail">
+                        <h3 class="project_title">Weather API</h3>
+                        <div class="project_description">
+                            <p>Simple Fetch API project. Looking for weather information around the world. Data fetched from <a style="color: #fff;" href="https://openweathermap.org/" target="_blank">openweathermap.org</a>. Styled some animations with CSS
+                                for better interface. API contains useful data like local time, minimum, maximum and current temperature, humidity, wind speed, etc.
+                            </p>
+                        </div>
+                        <ul class="project_lang">
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>Fetch API</li>
+                        </ul>
+                        <div class="game-div right">
+                            <a href="https://mistonja3.github.io/WeatherAPI/" target="_blank" class="click-event-2">
+                                <p class="game-p">Check out</p>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="column">
+                        <div class="project_images">
+                            <a href="assets/weather1.png" data-lightbox="weather">
+                                <div class="game1 image-wrapper">
+                                    <img src="assets/weather1.png">
+                                    <span class="click-event">More Photos</span>
+                                </div>
+                            </a>
+                            <a href="assets/weather2.png" data-lightbox="weather"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section contact container is-small" data-aos="flip-left" id="contact">
+            <h2>Let's Get In Touch</h2>
+            <p>I am looking for a new career path and would like to start my web development journey. I am still a rookie at it but, I learn pretty quickly. Please, don't hesitate to contact me. (PS Most of my Github repositories are private but feel free
+                to message me and give you permission to see it.)
+            </p>
+            <a class="email" href="mailto:mario.tom96@gmail.com">Shoot Me A Message</a>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="social">
+            <ul>
+                <li>
+                    <a href="https://github.com/mistonja3" target="_blank">
+                        <img src="assets/github.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/mistonja" target="_blank">
+                        <img src="assets/facebook.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/mario-t-71802b96" target="_blank">
+                        <img src="assets/linkedin.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p>Designed by Mario Tomic</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
