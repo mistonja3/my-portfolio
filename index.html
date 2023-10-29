@@ -8,7 +8,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="lightbox2-2.11.3/src/css/lightbox.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -28,7 +28,7 @@
                         <a href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="assets/resume.pdf" target="_blank">Resume</a>
+                        <a href="assets/Mario's CV.pdf" target="_blank">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -57,8 +57,8 @@
             <div class="container is-medium intro">
                 <p>Hi, my name is</p>
                 <h1>Mario Tomic</h1>
-                <h2>Inspiring Web Developer</h2>
-                <p>Computer Science (BSc) student, looking to specialize in web development and UI/UX design. </p>
+                <h2>Aspiring Web Developer</h2>
+                <p>I'm passionate about web development and dedicated to coding the future of the internet. </p>
                 <a href="mailto:mario.tom96@gmail.com" class="email">Contact me</a>
             </div>
         </section>
@@ -75,23 +75,23 @@
                             careers.
                         </p>
                         <p>
-                            I am currently pursuing a BScs degree in Computer Science at the University of London. I
-                            will be entering my final year of the degree in March 2022. I've enjoyed every programming
-                            exercise I had to do, ranging from a simple JavaScript project to making
-                            my own website with front-end and back-end development.
+                            I am a recent graduate with a strong passion for design and a deep enthusiasm for front-end development. 
+                            My goal is to create visually appealing and user-friendly interfaces.
+                            I have a solid foundation in React and React Native, which I believe are the perfect tools to bring my design concepts to life. 
+                            I'm excited to embark on a career that allows me to merge my creative design skills with my technical expertise to craft captivating digital experiences.
                         </p>
                     </div>
                     <div class="column">
                         <p>Languagues and skills I'm familiar with, so far:</p>
                         <ul class="skills_list">
-                            <li><img src="assets/html.png" alt="HTML5 logo" title="HTML5"></li>
-                            <li><img src="assets/css-3.png" alt="CSS3 logo" title="CSS3"></li>
-                            <li><img src="assets/js.png" alt="JavaScript logo" title="JavaScript"></li>
-                            <li><img src="assets/node.png" alt="Node.js logo" title="Node.js"></li>
+                            <li><img src="assets/react.png" alt="React logo" title="React"></li>
+                            <li><img src="assets/java-4.svg" alt="Java logo" title="Java"></li>
+                            <li><img src="assets/spring-3.svg" alt="Spring boot logo" title="Spring Boot"></li>
+                            <li class="sep"><img src="assets/node.png" alt="Node.js logo" title="Node.js"></li>
                             <li><img src="assets/sql.png" alt="mySQL logo" title="mySQL"></li>
-                            <li><img src="assets/jquery.png" alt="jQuery logo" title="jQuery"></li>
+                            <li><img src="assets/redux.svg" alt="Redux logo" title="Redux Toolkit"></li>
                             <li><img src="assets/git.png" alt="Git logo" title="Git"></li>
-                            <li><img src="assets/c.png" alt="C++ logo" title="C++"></li>
+                            <li><img src="assets/python-5.svg" alt="Python logo" title="Python"></li>
                         </ul>
                     </div>
                 </div>
@@ -101,7 +101,173 @@
         <section class="section" id="projects">
             <div class="container is-medium projects">
                 <h2 class="about_title">Projects I've Done</h2>
-                <div class="columns fight-site" data-aos="fade-up-right">
+                <div>
+                    <h3>Language:</h3>
+                    <div>
+                        <ul id="lang-filter">
+                            <li data-filter="all" class="active">All</li>
+                            <li data-filter="react java">React</li>
+                            <li data-filter="reactNative">React Native</li>
+                            <li data-filter="htmlcss">HTML/CSS/JS</li>
+                            <li data-filter="python">Python</li>
+                            <li data-filter="java">Java</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="columns fight-site projectFilter java react" data-aos="fade-up-right">
+                    <div class="column project_images">
+                        <a href="assets/soc2.jpg" data-lightbox="reactsocial">
+                            <div class="game1 image-wrapper" style="display: flex; justify-content: center;">
+                                <img style="height: 470px;" src="assets/soc5.jpg">
+                                <span class="click-event">More Photos</span>
+                            </div>
+                        </a>
+                        <!-- <a href="assets/track1.png" data-lightbox="ebuy"></a> -->
+                        <a href="assets/soc1.jpg" data-lightbox="reactsocial"></a>
+                        <a href="assets/soc2.jpg" data-lightbox="reactsocial"></a>
+                        <a href="assets/soc4.jpg" data-lightbox="reactsocial"></a>
+                        <a href="assets/soc5.jpg" data-lightbox="reactsocial"></a>
+                        
+                    </div>
+                    <div class="column project_detail">
+                        <h3 class="project_title"> React Social Network </h3>
+                        <div class="project_description">
+                            <p>
+                                Social network built using Java Spring Boot and React. Simple social media application where users can interact with each other
+                                by sending messages, posting statuses on each other profiles and chat in real time chat rooms. Users can send each other friend requests,
+                                like and comment on other users posts.
+                            </p>
+                        </div>
+                        <ul class="project_lang">
+                            <li>React</li>
+                            <li>Java</li>
+                            <li>Spring Boot</li>
+                            <li>MySQL</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                        <div class="game-div left">
+                            <a href="https://ebuy-heroku.herokuapp.com/" target="_blank" class="click-event-2">
+                                <p class="game-p">Check out</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns calorie-app projectFilter reactNative" data-aos="fade-up-right">
+                    
+                    <div class="column project_detail">
+                        <h3 class="project_title"> My Restaurant</h3>
+                        <div class="project_description">
+                            <p>
+                                Simple in-restaurant food ordering application. Main feature of the application
+                                is the ability to order food without interacting with the waiting staff.
+                                If children are present there is a Kids corner page with few interactive games.
+                            </p>
+                        </div>
+                        <ul class="project_lang">
+                            <li>React Native</li>
+                            <li>Expo</li>
+                        </ul>
+                        <!-- <div class="game-div left">
+                            <a href="https://ebuy-heroku.herokuapp.com/" target="_blank" class="click-event-2">
+                                <p class="game-p">Check out</p>
+                            </a>
+                        </div> -->
+                    </div>
+                    <div class="column project_images">
+                        <a href="assets/rest1.png" data-lightbox="restaurant">
+                            <div class="game1 image-wrapper">
+                                <img src="assets/rest1.png">
+                                <span class="click-event">More Photos</span>
+                            </div>
+                        </a>
+                        <a href="assets/rest2.png" data-lightbox="restaurant"></a>
+                        <a href="assets/rest3.png" data-lightbox="restaurant"></a>
+                        <a href="assets/rest4.png" data-lightbox="restaurant"></a>
+                        <a href="assets/rest5.png" data-lightbox="restaurant"></a>
+                        <a href="assets/rest6.png" data-lightbox="restaurant"></a>
+                        <a href="assets/rest7.png" data-lightbox="restaurant"></a>
+                        <a href="assets/rest8.png" data-lightbox="restaurant"></a>
+                    </div>
+                </div>
+                <div class="columns fight-site projectFilter reactNative" data-aos="fade-up-right">
+                    <div class="column project_images">
+                        <a href="assets/track3.png" data-lightbox="babyLogger">
+                            <div class="game1 image-wrapper" style="display: flex; justify-content: center;">
+                                <img style="height: 470px;" src="assets/track3.png">
+                                <span class="click-event">More Photos</span>
+                            </div>
+                        </a>
+                        <a href="assets/track2.png" data-lightbox="babyLogger"></a>
+                        <a href="assets/track4.png" data-lightbox="babyLogger"></a>
+                        <a href="assets/track1.png" data-lightbox="babyLogger"></a>
+                    </div>
+                    <div class="column project_detail">
+                        <h3 class="project_title"> BabyLogger - Activity Tracker </h3>
+                        <div class="project_description">
+                            <p>
+                                Mobile application built in React Native. It's a useful tool for newly monthers and thei infants.
+                                Keep logs and keep track on how baby is growing in 1 year timespan. Check and predict baby's sleeping and
+                                feeding schedule based on previous log inputs. Also task tracker for mothers available.  
+                            </p>
+                        </div>
+                        <ul class="project_lang">
+                            <li>React Native</li>
+                            <li>Expo</li>
+                        </ul>
+                        <div class="game-div left">
+                            <a href="https://ebuy-heroku.herokuapp.com/" target="_blank" class="click-event-2">
+                                <p class="game-p">Check out</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns calorie-app projectFilter react" data-aos="fade-up-right">
+                    
+                    <div class="column project_detail">
+                        <h3 class="project_title"> QuizNgaged - Engagement Track</h3>
+                        <div class="project_description">
+                            <p>
+                                A web-based application that helps teachers track their
+                                students' progress and engagement in class based on pop quizzes and attention during classes.
+                            </p>
+                        </div>
+                        <ul class="project_lang">
+                            <li>React</li>
+                            <li>MySQL</li>
+                            <li>Docker</li>
+                            <li>Bootstrap</li>
+                            <li>Material UI</li>
+                        </ul>
+                        <!-- <div class="game-div left">
+                            <a href="https://ebuy-heroku.herokuapp.com/" target="_blank" class="click-event-2">
+                                <p class="game-p">Check out</p>
+                            </a>
+                        </div> -->
+                    </div>
+                    <div class="column project_images">
+                        <a href="assets/quiz1.png" data-lightbox="quiz">
+                            <div class="game1 image-wrapper">
+                                <img src="assets/quiz1.png">
+                                <span class="click-event">More Photos</span>
+                            </div>
+                        </a>
+                        <a href="assets/quiz2.png" data-lightbox="quiz"></a>
+                        <a href="assets/quiz3.png" data-lightbox="quiz"></a>
+                        <a href="assets/quiz4.png" data-lightbox="quiz"></a>
+                        <a href="assets/quiz5.png" data-lightbox="quiz"></a>
+                        <a href="assets/quiz6.png" data-lightbox="quiz"></a>
+                        <a href="assets/quiz7.png" data-lightbox="quiz"></a>
+                        <a href="assets/quiz8.png" data-lightbox="quiz"></a>
+                        <a href="assets/quiz9.png" data-lightbox="quiz"></a>
+                        <a href="assets/quiz10.png" data-lightbox="quiz"></a>
+                        <a href="assets/quiz11.png" data-lightbox="quiz"></a>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="columns fight-site projectFilter htmlcss" data-aos="fade-up-right">
                     <div class="column project_images">
                         <a href="assets/ebuy.png" data-lightbox="ebuy">
                             <div class="game1 image-wrapper">
@@ -134,7 +300,7 @@
                     </div>
                 </div>
 
-                <div class="columns calorie-app" data-aos="fade-up-left">
+                <div class="columns calorie-app projectFilter htmlcss" data-aos="fade-up-left">
 
                     <div class="column project_detail">
                         <h3 class="project_title">CalorieBuddy</h3>
@@ -171,7 +337,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="columns fight-site" data-aos="fade-up-right">
+                <div class="columns fight-site projectFilter htmlcss" data-aos="fade-up-right">
                     <div class="column project_images">
                         <a href="assets/fight1.png" data-lightbox="fight">
                             <div class="game1 image-wrapper">
@@ -204,7 +370,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="columns draw-app" data-aos="fade-up-left">
+                <div class="columns draw-app projectFilter htmlcss" data-aos="fade-up-left">
                     <div class="column project_detail">
                         <h3 class="project_title">JS Drawing App</h3>
                         <div class="project_description">
@@ -238,7 +404,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="columns js-game" data-aos="fade-up-right">
+                <div class="columns js-game projectFilter htmlcss" data-aos="fade-up-right">
                     <div class="column project_images">
                         <a href="assets/game1.png" data-lightbox="game">
                             <div class="game1">
@@ -269,7 +435,7 @@
                     </div>
 
                 </div>
-                <div class="columns weather-api" data-aos="fade-up-left">
+                <div class="columns weather-api projectFilter htmlcss" data-aos="fade-up-left">
 
                     <div class="column project_detail">
                         <h3 class="project_title">Weather API</h3>
@@ -305,7 +471,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="columns sudoku-app" data-aos="fade-up-right">
+                <div class="columns sudoku-app projectFilter htmlcss" data-aos="fade-up-right">
                     <div class="column project_images">
                         <a href="assets/sudo1.png" data-lightbox="sudoku">
                             <div class="game1 image-wrapper">
@@ -333,6 +499,45 @@
                                 <p class="game-p">Solve</p>
                             </a>
                         </div>
+                    </div>
+                </div>
+                <div class="columns calorie-app projectFilter python" data-aos="fade-up-right">
+                    
+                    <div class="column project_detail">
+                        <h3 class="project_title">FriendShare - Social Network</h3>
+                        <div class="project_description">
+                            <p>
+                                Social network built with Python and Django framework. Lite version of Facebook looking application. Basic features like status posts with or without
+                                images. Users can search for other users and send each other friend requests. Users can use direct messaging, group messaging and real time chat feature.
+                            </p>
+                        </div>
+                        <ul class="project_lang">
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>SQLite</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                        <!-- <div class="game-div left">
+                            <a href="https://ebuy-heroku.herokuapp.com/" target="_blank" class="click-event-2">
+                                <p class="game-p">Check out</p>
+                            </a>
+                        </div> -->
+                    </div>
+                    <div class="column project_images">
+                        <a href="assets/friendsh1.png" data-lightbox="friendshare">
+                            <div class="game1 image-wrapper">
+                                <img src="assets/friendsh1.png">
+                                <span class="click-event">More Photos</span>
+                            </div>
+                        </a>
+                        <a href="assets/friendsh2.png" data-lightbox="friendshare"></a>
+                        <a href="assets/friendsh3.png" data-lightbox="friendshare"></a>
+                        <a href="assets/friendsh4.png" data-lightbox="friendshare"></a>
+                        <a href="assets/friendsh5.png" data-lightbox="friendshare"></a>
+                        <a href="assets/friendsh6.png" data-lightbox="friendshare"></a>
+                        <a href="assets/friendsh7.png" data-lightbox="friendshare"></a>
+                        <!-- <a href="assets/friendsh8.png" data-lightbox="friendshare"></a> -->
+                        
                     </div>
                 </div>
             </div>
@@ -375,6 +580,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
     <script>
         AOS.init();
+        
     </script>
 </body>
 
